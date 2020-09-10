@@ -37,6 +37,16 @@ module.exports = {
       remotes: {
         app_b: 'app_b',
       },
+      // shared: {
+      //   react: {
+      //     eager: true,
+      //     singleton: true,
+      //   },
+      //   'react-dom': {
+      //     eager: true,
+      //     singleton: true,
+      //   },
+      // },
     }),
     new HtmlWebpackPlugin({
       title: 'Production',

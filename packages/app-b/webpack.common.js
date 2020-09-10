@@ -40,6 +40,16 @@ module.exports = {
       remotes: {
         app_c: 'app_c',
       },
+      shared: {
+        react: {
+          eager: true,
+          singleton: true,
+        },
+        'react-dom': {
+          eager: true,
+          singleton: true,
+        },
+      },
     }),
   ],
   output: {
